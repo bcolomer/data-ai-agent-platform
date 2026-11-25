@@ -32,3 +32,4 @@ print("\n--- Consumo de Tokens ---")
 print("Tokens de entrada (tu prompt):", response.usage_metadata.prompt_token_count)
 print("Tokens de salida (respuesta):", response.usage_metadata.candidates_token_count)
 print("Total de tokens:", response.usage_metadata.total_token_count)
+
