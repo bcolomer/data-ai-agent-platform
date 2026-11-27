@@ -52,7 +52,7 @@ else:
     print(f"Cargadas {coleccion.count()} ofertas existentes desde disco (0 llamadas a API para indexar).\n")
 
 # 3. Consulta semántica (Retrieval)
-consulta = "Quiero trabajar desarrollando APIs y servicios en Python"
+""" consulta = "Quiero trabajar desarrollando APIs y servicios en Python"
 vector_consulta = obtener_embeddings([consulta])[0]
 
 resultados = coleccion.query(
@@ -69,4 +69,4 @@ for doc_id, doc, meta, distancia in zip(
 ):
     # ChromaDB devuelve distancia coseno (0 = idéntico); similitud = 1 - distancia
     similitud = 1 - distancia
-    print(f"[{similitud:.4f}] ({doc_id} | {meta['area']} - {meta['modalidad']}): {doc}")
+    print(f"[{similitud:.4f}] ({doc_id} | {meta['area']} - {meta['modalidad']}): {doc}") """
